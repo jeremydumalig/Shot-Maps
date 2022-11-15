@@ -1,6 +1,6 @@
 # Shot-Maps
 
-*This project was completed to be used by the University of Chicago Men's Basketball Program and includes shot charts / heat maps for a sample dataset. The full project can be found [here](https://jeremydumalig.com/heat-check/).*
+*This project was completed to be used by the University of Chicago Men's and Women's Basketball Teams and includes shot charts / heat maps for a sample dataset. The full project can be found [here](https://jeremydumalig.com/heat-check/).*
 
 *Packages/Libraries Used : numpy, pandas, matplotlib, tidyverse, ggplot, ggrepel, gt*
 
