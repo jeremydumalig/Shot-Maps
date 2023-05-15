@@ -5,11 +5,13 @@ library(png)
 library(gt)
 rm(list=ls())
 
+setwd("/Users/jeremydumalig/Documents/GitHub/Shot-Maps")
+
 # Import sample data, calculate FG%
 kobe_sample <- read_csv("kobe_regions.csv") %>%
   group_by(Region) %>%
   summarize(FGM = sum(shot_made_flag),
-         FGA = n()) %>%
+            FGA = n()) %>%
   mutate(`FG%` = 100 * round(FGM / FGA, 3),
          Splits = paste(paste(as.character(FGM), 
                               as.character(FGA), 
